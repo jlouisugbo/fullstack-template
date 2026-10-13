@@ -1,0 +1,14 @@
+# Dependencies & build output
+**/node_modules/
+frontend/dist/
+
+# Local env (use .env.example)
+backend/.env
+**/.env
+!**/.env.example
+
+# OS & editors
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
